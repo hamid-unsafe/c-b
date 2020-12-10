@@ -16,7 +16,18 @@ text = 'text'
 video = 'video'
 
 ######################
+# message types:
 # image | audio | video | document | text
+######################
+# example:
+  # {
+  #   'source_id': -1001157812346,
+  #   'dest_id': -1001439191924,
+  #   'year': 2020,
+  #   'month': 11, 
+  #   'day': 15,
+  #   'message_types': [],
+  # },
 ######################
 pairs = [
   {
