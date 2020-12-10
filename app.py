@@ -31,16 +31,16 @@ video = 'video'
 ######################
 pairs = [
   {
-    'source_id': -1001157812346,
-    'dest_id': -1001439191924,
-    'year': 2020,
-    'month': 11, 
-    'day': 15,
-    'message_types': [],
+    'source_id': 0,
+    'dest_id': 0,
+    'year': 0,
+    'month': 0, 
+    'day': 0,
+    'message_types': [image],
   },
   {
-    'source_id': -1001180639527,
-    'dest_id': -1001155977872,
+    'source_id': 0,
+    'dest_id': 0,
     'year': 0,
     'month': 0, 
     'day': 0,
@@ -48,12 +48,9 @@ pairs = [
   },
 ]
 sleep_time = 0.4
-year = 0
-month = 11
-day = 14
 ######################
 
-client_name = 'dude-cv'
+client_name = 'user'
 API_ID = 1945628
 API_HASH = '2c96a07930fe107684ab108250886d49'
 
